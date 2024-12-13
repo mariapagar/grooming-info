@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Cuidado con el Grooming!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #FFCCCC, #FFD3D3);
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            color: #d32f2f;
+        }
+        nav {
+            background-color: #2C6ED5;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 30px;
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        section h2 {
+            color: #2c6ed5;
+            margin-top: 0;
+        }
+	section img {
+    		width: 100%; /* Mantiene la imagen adaptada al ancho del contenedor */
+    		max-width: 500px; /* Límite máximo de ancho */
+    		height: auto; /* Mantiene la proporción de la imagen */
+    		border-radius: 8px;
+   		 margin: 10px 0;
+    		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    		border: 2px solid #ddd;
+		align: center
+	}
+
+        footer {
+            background-color: #d5f5e3;
+            text-align: center;
+            padding: 15px;
+        }
+        @media (max-width: 768px) {
+            main {
+                padding: 10px;
+            }
+            section {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Cuidado con el Grooming!</h1>
+        <p>Protege tu privacidad en internet y aprende cómo actuar.</p>
+    </header>
+
+    <nav>
+        <a href="#grooming">¿Qué es el grooming?</a>
+        <a href="#alerta">Signos de alerta</a>
+        <a href="#proteger">Cómo protegerte</a>
+    </nav>
+
+    <main>
+        <section id="grooming">
+            <h2><i class="fas fa-info-circle"></i> ¿Qué es el Grooming?</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKXDnt_G0z0Lx5S8bnCTWzA95N3Fjxy4lIqKi6whETzgA90Pd99bq43SuXwwsg0aV5WPs&usqp=CAU" alt="Imagen sobre grooming">
+            <p>El grooming es cuando un adulto contacta con menores a través de internet con malas intenciones. Puede empezar con conversaciones amigables, pero el objetivo es ganarse tu confianza para manipularte o hacerte daño.</p>
+        </section>
+
+        <section id="alerta">
+            <h2><i class="fas fa-exclamation-triangle"></i> Signos de alerta</h2>
+            <img src="https://educarencolores.wordpress.com/wp-content/uploads/2019/05/atencic3b3n-1.jpg?w=820&h=312&crop=1" alt="Signos de alerta">
+            <ul>
+                <li><strong>Mensajes incómodos:</strong> Hablan de temas inapropiados.</li>
+                <li><strong>Secreto:</strong> Te piden que no cuentes nada.</li>
+                <li><strong>Presión:</strong> Quieren fotos privadas o información personal.</li>
+                <li><strong>Regalos:</strong> Te envían cosas para ganarse tu confianza.</li>
+                <li><strong>Insistencia en quedar:</strong> Insisten en verte en persona.</li>
+            </ul>
+        </section>
+
+        <section id="proteger">
+            <h2><i class="fas fa-shield-alt"></i> Cómo protegerte</h2>
+            <img src="https://blog.uvm.mx/hs-fs/hubfs/cyberattack.jpg?width=600&name=cyberattack.jpg" alt="Cómo protegerte">
+            <ol>
+                <li>No compartas información personal, como fotos privadas o datos sobre tu dirección.</li>
+                <li>Configura la privacidad de tus redes sociales.</li>
+                <li>Desconfía de extraños que insisten en hablar contigo.</li>
+                <li>Actúa con precaución y escucha tu intuición.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2><i class="fas fa-life-ring"></i> Si necesitas ayuda</h2>
+            <img src="https://en-clase.ideal.es/wp-content/uploads/2020/09/pedir-favores.jpg" alt="Ayuda disponible">
+            <p>Habla con alguien de confianza, como tu familia o profesorado, o contacta con:</p>
+            <ul>
+                <li><strong>Teléfono de Ayuda a la Infancia:</strong> 900 202 010 (gratuito y confidencial).</li>
+                <li><strong>Policía Nacional:</strong> Puedes denunciar casos en línea o en persona.</li>
+            </ul>
+            <button style="background-color: #2C6ED5; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                Contactar ayuda
+            </button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Tu privacidad es tu mejor defensa. Confía en ti y no tengas miedo de pedir ayuda.</p>
+        <a href="https://www.is4k.es" target="_blank">Recursos sobre ciberseguridad</a>
+    </footer>
+</body>
+</html>
